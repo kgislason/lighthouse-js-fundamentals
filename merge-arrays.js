@@ -20,9 +20,8 @@ function merge(array1, array2) {
     newArray.push(array2[x]);
   }
 
-  return newArray.sort();;
+  return newArray.sort();
 }
-
 
 // Tests
 console.log(merge([4, 5, 6], [1, 2, 3, 4]), "=?", [1, 2, 3, 4, 4, 5, 6]);
